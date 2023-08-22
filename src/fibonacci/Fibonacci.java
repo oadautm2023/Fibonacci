@@ -19,7 +19,7 @@ public class Fibonacci {
         // TODO code application logic here
         int _tam;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Ingrese el tamaño de la serie");
+        System.out.println("Ingrese el tamanio de la serie");
         _tam=sc.nextInt();
         Metodos m=new Metodos(_tam);
         int _a[]=new int[m.getTam()];
