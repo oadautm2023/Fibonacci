@@ -19,6 +19,7 @@ public class Metodos {
     public int getTam() {
         return tam;
     }
+    // la funcion recursiva de Fibbonacci
     public int fibonaci(int num) {
         int fib = 0;
         if (num > 1) {

@@ -26,6 +26,7 @@ public class Fibonacci {
         _a=m.serie();
         m.imprimir(_a);
         System.out.println("la suma de los factores de la serie es :"+m.sumar(_a));
+        //im´resion de la funcion recursiva de Fibonacci
         System.out.println(m.fibonaci(_tam));
     }
     
