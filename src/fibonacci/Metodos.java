@@ -19,6 +19,16 @@ public class Metodos {
     public int getTam() {
         return tam;
     }
+    public int fibonaci(int num) {
+        int fib = 0;
+        if (num > 1) {
+            fib = fibonaci(num - 1) + fibonaci(num - 2);
+        } else {
+            fib = fib + 1;
+        }
+        return fib;
+    }
+
     public int[] serie() {
         int a[] = new int[getTam()];
         if (getTam()==1) {
