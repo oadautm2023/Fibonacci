@@ -29,7 +29,15 @@ public class Metodos {
         }
         return fib;
     }
-
+    public int factorial(int num) {
+        int fact = 0;
+        if (num > 0) {
+            fact = num * factorial(num - 1);
+        } else {
+            fact = 1;
+        }
+        return fact;
+    }
     public int[] serie() {
         int a[] = new int[getTam()];
         if (getTam()==1) {
