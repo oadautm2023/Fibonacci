@@ -29,6 +29,7 @@ public class Metodos {
         }
         return fib;
     }
+    //metodo ´para calcular el factorial de un numero
     public int factorial(int num) {
         int fact = 0;
         if (num > 0) {
